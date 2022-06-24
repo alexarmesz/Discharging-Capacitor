@@ -12,7 +12,10 @@ out = [log(x, e) for x in inputdata]
 figure, axis = plt.subplots(1,2)
 plt.get_current_fig_manager().set_window_title('Discharging Capacitor')
 
-x = np.array([x * 10 for x in range(19)])
+timeInterval = 10
+dataPoints = (len(inputdata))
+
+x = np.array([x * timeInterval for x in range(dataPoints)])
 y1 = np.array(out)
 axis[0].plot(x,y1)
 axis[0].set_title("ln Data")
