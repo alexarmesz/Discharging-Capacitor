@@ -3,7 +3,7 @@ Python script that use matplotlib to create graphs of voltage against time as ca
 Data in values txt file is the average of two voltage values I recorded as the capacitor discharged, taken in 10 second intervals.
 
 https://pmt.physicsandmathstutor.com/download/Physics/A-level/Notes/AQA/Practical-Skills/RP%2009%20-%20Charging%20and%20Discharging%20Capacitors.pdf
-![Set up of circuit](image.png) \
+![Set up of circuit](diagram.png) \
 *Circuit setup diagram*
 
 Circuit set up as in diagram
